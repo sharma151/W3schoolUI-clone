@@ -2,14 +2,12 @@
   margin: 0;
   padding: 0;
 }
-body {
-  background-color: #282a35;
-}
+
 .left-bar,
 header {
   background-color: white;
   width: 100%;
-  height: 75px;
+  height: 58px;
   display: inline-block;
 }
 .left-bar li {
@@ -39,28 +37,17 @@ img {
 .icons {
   margin: 0px;
   position: relative;
-  top: -40px;
+  top: -30px;
   left: 600px;
 }
 .icons li {
   list-style: none;
   display: inline;
-  position: relative;
-  left: 20px;
-  bottom: 5px;
   padding: 10px;
 }
 .icons li:hover {
   color: #04aa6d;
 }
-
-/* Dropdown Button */
-/* .dropbtn {
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-} */
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
@@ -162,7 +149,7 @@ p {
   font-weight: 600;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 27px;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 .getcertified {
   background-color: #ffc0c7;
@@ -186,4 +173,71 @@ p {
   color: white;
   border-radius: 30px;
   padding: 10px 38px 10px 38px;
+}
+.login:hover {
+  filter: brightness(85%);
+}
+.frstdiv {
+  /* display: flex; */
+  justify-content: center;
+  height: 470px;
+  background-color: #282a35;
+}
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 70px;
+  font-weight: 700px;
+  line-height: 105px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 95px;
+}
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 23px;
+  font-weight: 700px;
+  line-height: 34.5px;
+  color: #ffc0c7;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+}
+form {
+  justify-content: center;
+  display: flex;
+  position: relative;
+  top: 125px;
+}
+input {
+  padding: 15px 270px 15px 0px;
+  border-radius: 30px 0px 0px 30px;
+  border-style: none;
+}
+.search {
+  padding: 10px 100px 10px 0px;
+  border-radius: 0px 30px 30px 0px;
+  border-style: none;
+  background-color: #04aa6d;
+}
+.search:hover {
+  filter: brightness(85%);
+}
+.search i {
+  position: relative;
+  left: 47px;
+  color: white;
+}
+
+.frst-div-component {
+  padding: 0;
+  height: 100px;
+  width: 100%;
+}
+.secnddiv {
+  margin: 0;
+  height: 470px;
+  background-color: #d9eee1;
 }
