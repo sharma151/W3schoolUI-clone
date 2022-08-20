@@ -221,7 +221,7 @@ input {
 input::placeholder {
   color: #757575;
   font-size: 17px;
-  font-weight: 400;
+  font-weight: 550;
   line-height: 25.5px;
 }
 *:focus {
@@ -253,6 +253,9 @@ h2 {
   justify-content: center;
   position: relative;
   top: 150px;
+}
+h2:hover {
+  color: #04aa6d;
 }
 
 .frst-div-component {
