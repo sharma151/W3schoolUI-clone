@@ -272,6 +272,10 @@ h2:hover {
   float: left;
   width: 50%;
 }
+.inner-left {
+  height: 450px;
+  padding: 30px;
+}
 .right {
   float: right;
   width: 50%;
