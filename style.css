@@ -268,3 +268,11 @@ h2:hover {
   height: 680px;
   background-color: #d9eee1;
 }
+.left {
+  float: left;
+  width: 50%;
+}
+.right {
+  float: right;
+  width: 50%;
+}
